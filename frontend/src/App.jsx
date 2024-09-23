@@ -6,7 +6,6 @@ import Navbar from './components/Navbar.jsx';
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Box minH={"100vh"}>
