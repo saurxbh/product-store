@@ -7,13 +7,14 @@ import productRoutes from "./routes/product.route.js";
 dotenv.config();
 
 const app = express();
+const PORT = process.env.PORT || 8080
 
 app.use(express.json()); // Allows us to accept JSON data in req.body
 
 app.use("/api/products", productRoutes);
 
-app.listen(8080, () => {
+app.listen(PORT, () => {
     connectDB();
-    console.log("server started at http://localhost:8080");
+    console.log("server started at http://localhost:" + PORT);
 })
 
