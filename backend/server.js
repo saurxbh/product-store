@@ -44,7 +44,11 @@ app.delete("/api/products/:id", async (req, res) => {
             message: "Product Deleted"
         });
     } catch (error) {
-
+        console.error("Error while deleting product", error.message);
+        return res.status(500).json({
+            success: false,
+            message: "Server Error"
+        });
     }
 });
 
