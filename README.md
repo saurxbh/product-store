@@ -75,6 +75,6 @@ Follow these steps to set up and run the application locally:
   ![image](images/responsive-2.png)
 
 - When there are no products in the database, following screen is displayed prompting the user to create a product.
-
+  
   ![image](images/no-products.png)
 
