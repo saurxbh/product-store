@@ -46,8 +46,15 @@ Follow these steps to set up and run the application locally:
 
 ## Execution
 
-- Homepage is displayed when root endpoint is hit. You can also toggle themes.
+- Homepage is displayed when '/' endpoint is hit. You can also toggle themes.
 
   ![image](images/home.png)
   ![image](images/toggle-theme.png)
+
+- The small '+' sign in the top right corner on the navbar provides the functionality to create a product. Upon clicking this button, '/create' endpoint is hit, where you can enter the product details to be created. After successfully creating a product, a toast is displayed and UI is updated to display the newly created product. 
+
+  ![image](images/create-endpoint.png)
+  ![image](images/create-product.png)
+  ![image](images/product-created-toast.png)
+  ![image](images/product-created-ui-updated.png)
 
