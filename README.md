@@ -64,7 +64,7 @@ Follow these steps to set up and run the application locally:
   ![image](images/update-product-modal-2.png)
   ![image](images/product-updated-ui-updated.png)
 
-- Delete button on the product card can be used to delete a product.
+- Delete button on a product card can be used to delete the product.
 
   ![image](images/delete-hover.png)
   ![image](images/product-deleted-ui-updated.png)
