@@ -44,3 +44,10 @@ Follow these steps to set up and run the application locally:
    ```bash
    npm run start
 
+## Execution
+
+- Homepage is displayed when root endpoint is hit. You can also toggle themes.
+
+  ![image](images/home.png)
+  ![image](images/toggle-theme.png)
+
