@@ -58,3 +58,10 @@ Follow these steps to set up and run the application locally:
   ![image](images/product-created-toast.png)
   ![image](images/product-created-ui-updated.png)
 
+- A product can be edited by clicking the edit button on the product card, after which a modal is displayed. It is a React component from ChakraUI library. After entering updated details and clicking updated, a toast is displayed and UI is updated.
+
+  ![image](images/update-product-modal.png)
+  ![image](images/update-product-modal-2.png)
+  ![image](images/product-updated-ui-updated.png)
+  
+
