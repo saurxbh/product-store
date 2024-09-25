@@ -46,7 +46,7 @@ Follow these steps to set up and run the application locally:
 
 ## Execution
 
-- Homepage is displayed when '/' endpoint is hit. You can also toggle themes.
+- Homepage is displayed and all the products in the database are fetched when '/' endpoint is hit. You can also toggle themes.
 
   ![image](images/home.png)
   ![image](images/toggle-theme.png)
@@ -68,5 +68,13 @@ Follow these steps to set up and run the application locally:
 
   ![image](images/delete-hover.png)
   ![image](images/product-deleted-ui-updated.png)
+
+- Responsive design is implemented
   
+  ![image](images/responsive-1.png)
+  ![image](images/responsive-2.png)
+
+- When there are no products in the database, following screen is displayed prompting the user to create a product.
+
+  ![image](images/no-products.png)
 
